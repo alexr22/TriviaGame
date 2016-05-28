@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery.js"></script>
+	<title>Trivia Game</title>
+</head>
+<body>
+<div class="container">
+	<div class="jumbotron">
+		<h1>Trivia Game</h1>
+		<h2>Insructions:</h2>
+		<h4 id="instructions">Pick an answer to the trivia question before time runs out.  If the time runs out, that will count as getting the question wrong. See how many questions you can get right.</h4>
+		<button class="btn btn-default btn-lg start">Start!</button>
+	</div>
+</div>
+<div class="container">
+	<div class="row qTimer">
+		<div class="col-md-7 question"></div>
+		<div class="col-md-5 timer"></div>
+	</div>
+	<div class="row answers">
+		<div class="col-md-5 button">
+		<button class="btn btn-default btn-lg btnA choices">A</button>
+		</div>
+		<div class="col-md-7 answerA">
+		</div>
+	</div>
+	<div class="row answers">
+		<div class="col-md-5 button">
+		<button class="btn btn-default btn-lg btnB choices">B</button>
+		</div>
+		<div class="col-md-7 answerB"></div>	
+	</div>
+	<div class="row answers">
+		<div class="col-md-5 button">
+		<button class="btn btn-default btn-lg btnC choices">C</button>
+		</div>
+		<div class="col-md-7 answerC"></div>
+	</div>
+	<div class="row answers">
+		<div class="col-md-5 button">
+		<button class="btn btn-default btn-lg btnD choices">D</button>
+		</div>
+		
+		<div class="col-md-7 answerD"></div>	
+	</div>
+	<div class="row footer">
+		<div class="col-md-6 NQ"><button class="btn btn-default btn-lg nextQuestion">Next Question</button>
+		</div>
+		<div class="col-md-2 SO"><button class="btn btn-default btn-lg startOver">Start Over</button>
+		</div>
+		<div class="col-md-4 correct"></div>
+	</div>
+</div>
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>

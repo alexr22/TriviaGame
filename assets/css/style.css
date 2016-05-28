@@ -1,0 +1,43 @@
+.jumbotron {
+	text-align: center
+}
+
+#instructions {
+	padding-right: 20%;
+	padding-left: 20%
+}
+
+.answers {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.button {
+	text-align: right;
+}
+
+.question {
+	text-align: right;
+	font-size: 25px;
+}
+
+.timer {
+	text-align: left;
+	font-size: 25px;
+}
+
+.answerA, .answerB, .answerC, .answerD {
+	text-align: left;
+	vertical-align: center;
+	padding-left:20px;
+}
+
+
+.NQ {
+	text-align: right;
+}
+
+.footer {
+	padding-top: 20px;
+}
+
